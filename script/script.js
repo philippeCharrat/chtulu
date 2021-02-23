@@ -11,7 +11,10 @@ function validerForm(){
       console.log("search "+user); 
     }  else if (rech_texte.includes("help")) {
       console.log("help");     
-      document.getElementById("reponse").innerHTML = "<ul><li> search user : Cherche un utilisateur </li><li> help : Affiche les commandes </li></ul>";
+      document.getElementById("reponse").innerHTML = "<ul><li> search user : Cherche un utilisateur </li><li> help : Affiche les commandes </li><li> clear : Afficher les logs </li></ul>";
+    } else if (rech_texte.includes("clear")) {
+      console.log("help");     
+      new_log = "Connexion serveur ASP ... "  
     } else  {
       console.log("nothing");
       document.getElementById("reponse").innerHTML = "Aucune commande ne correspond";
