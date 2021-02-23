@@ -13,7 +13,9 @@ function validerForm(){
       console.log("help");     
       document.getElementById("reponse").innerHTML = "<ul><li> search user : Cherche un utilisateur </li><li> help : Affiche les commandes </li></ul>";
     } else  {
-      console.log("nothing"); 
+      console.log("nothing");
+      document.getElementById("reponse").innerHTML = "Aucune commande ne correspond";
+     
     }
     document.getElementById("log").innerHTML = new_log;
     
