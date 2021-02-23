@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    	<meta charset="utf-8"/>
+    	<title>Accueil</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+		<script src="script/script.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="recherche">
+                <div id="log">Connection en cours vers le serveur de l'ASP . . .</div>
+                <label for="recherche_texte" id="recherche_label">[00-00-00]-server@philippe :</label>
+                <input type="text" id="recherche_texte" id="recherche_texte" autofocus onKeyPress="if(event.which == 13) validerForm();">
+                <div id="reponse"></div>
+            </div>
+            <div class="fiche">
+                <h1> Ishia IKITAKE</h1>
+                <div id="table">
+                    <table>
+                        <tr><td><img src="images/ishida.jpg" id="fichephoto" alt="Photo du perso"></td></tr>
+                        <tr><td>Nom : Ishisa IKITAKE</td></tr>
+                        <tr><td>Age : 25 </td></tr>
+                        <tr><td>Date : 20/05/1998</td></tr>
+                        <tr><td>Sexe : M</td></tr>
+                        <tr><td>lieux : 29 rue des mails, 38120 Saint-Egreve </td></tr>
+                        <tr><td>Dernier test : 20/05/1998</td></tr>
+                        <tr><td>Dernier curre : -</td></tr>
+                        <tr><td>Métier : Ingénieur Informatique</td></tr>
+                        <tr><td><div id="id_fiche">Id : 045-AGY-234</div></td></tr>
+                    </table>
+                </div>
+                <div id="table">
+                    <table>
+                        <tr>
+                            <td ><h3>Psycho-Pass :</h3></td>
+                            <td ><div id="id_fiche">145</div></td>
+                        </tr>
+                        <tr>
+                            <td ><h3>Couleur :</h3></td>
+                            <td><img src="images/carre_vert.png" id="psycho_fiche"></td>
+                        </tr>
+                        <tr rowspan="8">
+                            <td >                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
